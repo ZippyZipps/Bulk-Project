@@ -1,0 +1,158 @@
+body {
+ background-color: #ffffff;
+}
+.clearfix:after {
+display:block;
+clear:both;
+}
+/*----- Menu Outline -----*/
+.menu-wrap {
+width:100%;
+box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+background:#ffffff;
+}
+.menu {
+width:1000px;
+margin:0px auto;
+}
+.menu li {
+margin:0px;
+list-style:none;
+}
+.menu a {
+transition:all linear 0.15s;
+color:#ffffff;
+}
+.menu li:hover > a, .menu .current-item > a {
+text-decoration:none;
+color:#ffffff;
+}
+.menu .arrow {
+font-size:1px;
+line-height:0%;
+}
+/*----- Top Level -----*/
+.menu > ul > li {
+float:left;
+display:inline-block;
+position:relative;
+font-size:15px;
+}
+.menu > ul > li > a {
+padding:10px 40px;
+display:inline-block;
+text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+background:#2c3840;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other for  SuggestedImages*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 400px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other for SPECIFICATIONS*/
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px;
+  font-size:18px
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create three equal columns that floats next to each other for AboutUs and Laptop, mobile and tablet home*/
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  font-size:18px
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Create three equal columns that floats next to each other for AboutUs and Laptop, mobile and tablet home*/
+.column4 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 150px;
+  font-size:18px
+}
+.row4:after {
+  height: 280px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* FOR HAMBURGER DROPDOWN*/
+
+.dropbtn {
+  background-color: white;
+  color: #2c3840;
+  padding: 12px;
+  font-size: 40px;
+  border: none;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color:#1e4066;
+  min-width: 160px;
+
+}
+
+.dropdown-content a {
+  color:black;
+  font-size: 15px;
+  padding: 50px 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#b4dff0;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+
